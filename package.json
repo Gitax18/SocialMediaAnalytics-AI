@@ -1,0 +1,18 @@
+{
+  "name": "social-media-analyzer",
+  "version": "1.0.0",
+  "description": "Social Media analyzing tool with AI",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Gitanshu Sankhla",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "socket.io": "^4.8.1",
+    "dotenv": "^16.4.7"
+  }
+}
