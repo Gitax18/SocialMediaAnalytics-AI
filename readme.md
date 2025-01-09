@@ -1,3 +1,11 @@
+![app-banner](readme_resources/banner.gif)
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=i=js,html,css,express,git,github,nodejs,npm,tailwind" />
+  </a>
+</p>
+
 # Social Media Analysis ChatBot
 
 The **Social Media Analysis ChatBot (SMA Bot)** is an AI-powered chatbot built using Langflow and DataStax Astra DB. It analyzes social media data, providing valuable insights and personalized recommendations. Trained on 500 unique social media posts, SMA Bot helps you optimize your content strategy by suggesting captions, hashtags, the best times to post, and more.
