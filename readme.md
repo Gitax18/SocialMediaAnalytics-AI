@@ -1,3 +1,5 @@
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FGitax18%2FSocialMediaAnalytics-AI&label=views&labelColor=%2337d67a&countColor=%23ff8a65&style=flat-square)
+
 ![app-banner](readme_resources/banner.gif)
 
 <p align="center">
