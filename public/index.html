@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social-media analyzer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="logo.webp" type="image/x-icon" />
+  </head>
+  <body>
+    <section class="my-container">
+      <div class="left">
+        <!-- Heading -->
+        <h1 id="h1-main">Welcome to SocialMedia Analytics Chat</h1>
+        <!-- moto -->
+        <p>
+          Talk to our AI-powered social media analyzer chatbot, which utilizes
+          our database to uncover insights from public posts and user profiles.
+          It also helps you create posts that drive maximum engagement.
+        </p>
+        <div class="send--messages">
+          <!-- Container to store messages -->
+          <div id="messages">
+            <h2 id="messages-heading">Talk to SMA BOT</h2>
+          </div>
+          <!-- form to send message -->
+          <form action="" id="form">
+            <textarea
+              cols="30"
+              rows="10"
+              type="text"
+              name="write-message"
+              id="input"
+              autocomplete="off"
+              placeholder="Enter your message here....."
+            ></textarea>
+            <button type="submit" id="send">Send</button>
+          </form>
+        </div>
+        <footer class="developer">
+          <strong id="footer-info"
+            >Meet the developer:
+            <a id="footer-link" href="https://linktr.ee/gitanshusankhla"
+              >Gitanshu Sankhla</a
+            ></strong
+          >
+        </footer>
+      </div>
+      <div class="right" id="right">
+        <strong>Bot response will be shown here</strong>
+      </div>
+      <button id="downloadBtn">Download HTML</button>
+    </section>
+  </body>
+  <script src="/socket.io/socket.io.js"></script>
+  <script type="module" src="script.js"></script>
+</html>
